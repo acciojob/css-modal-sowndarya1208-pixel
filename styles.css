@@ -2,6 +2,14 @@
 /*  your css code here. If applicable */
 
 /* The Modal (background) */
+/* In styles.css */
+.modal {
+    display: none; /* Hidden by default - GOOD */
+    /* ... other styles ... */
+    display: flex; /* This overrides 'display: none;' immediately on load */
+    /* ... other styles ... */
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -15,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
 /* Modal Content/Box */
 .modal-content {
