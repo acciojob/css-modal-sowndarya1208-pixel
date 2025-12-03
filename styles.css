@@ -1,1 +1,68 @@
+/*  your css code here. If applica
 /*  your css code here. If applicable */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+    /* Center the modal-content in the middle of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+	color:white;
+	background-color:green;
+	padding:0px;
+}
+
+/* The Close Button */
+.close-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Body */
+.modal-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* When the JS sets display: block on the modal, this makes it visible */
+.modal.show-modal {
+    display: flex; 
+}
